@@ -1,0 +1,31 @@
+* {
+	box-sizing:border-box;
+}
+
+html, body {
+	font-size:12px;
+}
+body {
+	font-family:monospace;
+	
+	margin:0;
+	padding:1em;
+}
+
+#tokens tr td {
+	padding:0 0.5em;
+	max-width:16vw;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#tokens >thead tr td {
+	background-color:#333;
+	color:#fff;
+}
+#tokens >tbody tr td {
+	
+	background-color:#ccc;
+	color:#000;
+}
